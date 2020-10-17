@@ -124,6 +124,7 @@ nav {
 
   nav {
     position: relative;
+    width: 100%;
   }
 
   .burger {
@@ -419,7 +420,7 @@ nav {
 
 #fotomh {
   width: 250px;
-  height: 300px;
+  height: 250px;
   float: right;
   margin-right: 5%;
   margin-top: 0;
@@ -457,7 +458,7 @@ nav {
 
 #fotohab {
   width: 250px;
-  height: 300px;
+  height: 275px;
   float: right;
   margin-right: 5%;
   margin-top: 0;
@@ -495,7 +496,7 @@ nav {
 }
 
 #Experiências:hover h2 {
-  color: #68bbff;
+  color: #31a2ff;
   transform: translateY(5px);
   transition: 1 ease-in-out;
 }
@@ -506,7 +507,7 @@ nav {
 }
 
 #Experiências:hover p {
-  color: #68bbff;
+  color: #31a2ff;
   transform: translateY(5px);
   transition: 1 ease-in-out;
 }
@@ -558,4 +559,10 @@ nav {
 
 #botao:hover {
   background-color: #a800a8;
+}
+
+@media screen and (max-width: 786px) {
+  #botao {
+    margin-right: 1000px;
+  }
 }
