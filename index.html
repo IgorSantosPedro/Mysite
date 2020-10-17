@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://www.flaticon.com/svg/static/icons/svg/1503/1503431.svg" >
+</head>
+<body>
+    <header>
+    <nav>
+
+        <img src="minhafoto.jpg" alt="minhafoto" id="minhafoto">
+        <h2 id="nome">Igor Pedro Santos</h2>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="navlinks">
+            <li><a href="https://github.com/IgorSantosPedro">Projetos</a></li>
+            <li><p class="contato">Contatos</p></li>
+        </ul>
+    </nav>
+    </header>
+
+    <div class="teste">  
+        <ul> 
+        <ul class="link">
+            <li class="lilink"><a class="alink" href="https://www.linkedin.com/in/igor-pedro-santos-0661a9193" title="Linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a></li>
+            <li class="lilink"><a class="alink" href="mailto: igorpedrosantos21@gmail.com" title="Email"><i class="fa fa-envelope" aria-hidden="true"></i>
+            </a></li>
+            <li class="lilink"><a class="alink" href="https://instagram.com/igorpedrosantos?igshid=1x21seurx725y" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+    </ul>
+    </div>
+
+    <button type="button" id="botao" title="Voltar ao topo" onclick="voltatopo()">⇧</button>
+
+
+    <div class="container">
+        <div class="card">
+                <div class="box">
+                    <div class="content">
+                        <h2>01</h2>
+                        <h3>Sobre mim</h3>
+                        <p>Meu nome é Igor Pedro Santos, tenho 19 anos, nasci e cresci
+                            em Guaruhos, São Paulo, atualmente vivendo em Limeira, 
+                            onde estudo.</p>
+                        <a href="#minhahistoria" onclick="aparece1()">Saiba mais sobre mim!</a>
+                    </div>
+                </div>
+        </div>
+
+
+        <div class="card">
+            <div class="box">
+                <div class="content">
+                    <h2>02</h2>
+                    <h3>Competências</h3>
+                    <p>Inglês intermediário e avançando, possuo conhecimento básico no 
+                        pacote Office e em C/C++, conhecimento intermediário em Python e
+                        aprendendo programação WEB.
+                    </p>
+                    <a href="#Competências" onclick="aparece2()">Conheça minhas habilidades!</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="box">
+                <div class="content">
+                    <h2>03</h2>
+                    <h3>Experiências</h3>
+                    <p>Atualmente estudo Sistemas de Informação na UNICAMP, diretor de modalidade
+                        na Associação Atlética da Faculdade de Tecnologia. Ainda não possuo experiência
+                        profissional.
+                    </p>
+                    <a href="#Experiências" onclick="aparece3()">Conheça mais da minha história!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="minhahistoria">
+        <h2>Bom que se intressou!</h2>
+        <p id="minhap">Bom, como já disse, meu nome é Igor Pedro Santos e nasci no dia 1 de abril de 2001. Sou de Guaruhos em São Paulo, hoje eu moro 
+            <br>em Limeira estudando na Faculdade de Tecnologia da Unicamp. Frequento a escola desde os 4 meses, então, já passei por algumas 
+            <br>e posso dizer que não tenho problemas com mudanças e adaptações, meu ensino médio foi feito no Colégio Parthenon, o colégio
+            <br>da minha cidade mais bem colocado no Enem.
+            <br>A transição do ensino médio para o superior foi bem tranquila, graças ao meu esforço e o auxílio dos meus amigos e professores,
+            <br>passei na primeira tentativa no curso e na faculdade que desejava, e vivo sozinho em Limeira desde então.
+            <br>Sou uma pessoa bem tranquila e caseira, gosto muito de tecnologia e tento sempre aprender mais sobre os assuntos que me interessam,
+            <br>gosto muito de estar com os amigos e com a família, adoro jogar video-game e ler.</p>
+        <div class="foto"><img src="fotominhahistoria.jpg" alt="fotomh" id="fotomh"></div>
+    </div>
+
+    <div id="Competências">
+        <h2>Hora de conhecer minhas habilidades!</h2>
+        <p id="compp">Dentra as minhas habilidades que podemos categorizar como hard-skill tenho inglês intermediário e estou estudando na escola
+        <br>digital Berlitz. Bom conhecimento de lógica de programação e do pacote office, conheço de forma básica as linguagens Python,
+        <br>C/C++ e estou, atualmente, estudando desenvolvimento WEB - a imagem é de um jogo da velha desenvolvido por mim.
+        <br>Atualmente, além do bacharelado em Sistemas de Informaçao pela UNICAMP, estou fazendo, também um curso da Universidade de 
+        <br>Michigan, e destribuido pela plataforma Cousera, sobre desenvolvido WEB.
+        <br>Como soft-skills, posso me qualificar como uma pessoa atenciosa e paciente, com vontade de aprender e de construir relações;
+        <br>tento sempre evoluir e me tornar uma pessoa melhor, gosto de trabalhar em equipe e sempre tento me predispor a auxiliar as pessoas.</p>
+        <div class="foto"><img src="tictactoe.jpg" alt="fotohab" id="fotohab" class="foto"></div>
+    </div>
+
+    <div id="Experiências">
+        <h2>Minhas experiências!</h2>
+        <p id="expp">Bom, estou procurando estágio, e não tenho experiências profissionais, mas tenho algumas pessoais que foram interessantes para 
+        <br>o meu desenvolvimento como pessoa.
+        <br>Hoje em dia, sou jogador e diretor de modalidade da Associação Atlética	Acadêmica Tecnologia Unicamp, a AAATU, a foto em  
+        <br>questão foi durante a recepção dos calouros do ano de 2020.
+        <br>Outra experiência importante para o meu crescimento foi um viagem internacional feita em 2017 com o intuito turístico e 
+        <br>acadêmico, a viagem foi para Orlando e nela me mantive sempre com o foco de me forçar a comunicar para aperfeiçoar meu inglês.
+        <br>Participei também de alguns projetos com meus amigos além de projetos pessoais de diversas áreas da programação, como Python
+        <br>e Web.</p>
+        <div class="foto"><img src="raçaAaatu.jpg" alt="fotoatu" id="fotoatu" class="foto"></div>
+    </div>
+
+    <script type="text/javascript" src="main.js"></script>
+    <footer>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
+</body>
+</html>
