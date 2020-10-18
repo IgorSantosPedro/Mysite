@@ -129,17 +129,21 @@ nav {
 
   nav {
     position: relative;
-    width: 100%;
+    width: 110%;
     z-index: 1;
   }
 
   .burger {
     position: fixed;
     cursor: pointer;
-    right: 5%;
-    top: 4.5%;
+    right: 4.2%;
+    top: 7%;
     transform: translate(-5%, -50%);
     z-index: 2;
+  }
+
+  .card {
+    margin-right: 35%;
   }
 
   .navlinks {
@@ -152,13 +156,13 @@ nav {
     -webkit-clip-path: circle(100px at 92% -20%);
     transition: all 1s ease-out;
     pointer-events: none;
-    z-index: 1;
   }
 
   .navlinks.open {
     clip-path: circle(1000px at 90% -10%);
     -webkit-clip-path: circle(1000px at 90% -10%);
     pointer-events: all;
+    z-index: 1;
   }
 
   .teste.open {
@@ -386,6 +390,12 @@ nav {
 .container .card:nth-child(3) .box .content a:hover {
   background: #006dc7;
   transition: 0.5s;
+}
+
+@media screen and (max-width: 786px) {
+  .container {
+    margin-left: 4%;
+  }
 }
 
 /*minhahistoria*/
