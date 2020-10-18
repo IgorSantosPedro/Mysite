@@ -593,6 +593,14 @@ nav {
     opacity: 0.5;
   }
 
+  #botao.open {
+    opacity: 0;
+  }
+
+  #botao.fade {
+    opacity: 1;
+  }
+
   #fotoatu {
     margin-left: 40vh;
   }

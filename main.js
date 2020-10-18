@@ -1,6 +1,6 @@
 const burger = document.querySelector(".burger");
 const navLinks = document.querySelector(".navlinks");
-const container = document.querySelector(".container");
+const botaosome = document.querySelector("#botao");
 const links = document.querySelectorAll(".navlinks li");
 const contatos = document.querySelector(".contato");
 const teste = document.querySelector(".teste");
@@ -9,8 +9,10 @@ const flip = document.querySelector(".card");
 
 burger.addEventListener("click", () => {
     navLinks.classList.toggle("open");
+    botaosome.classList.toggle("open");
     links.forEach(link=>{
         link.classList.toggle("fade");
+        botaosome.classList.toggle("fade");
     });
 });
 
