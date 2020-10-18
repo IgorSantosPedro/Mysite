@@ -9,7 +9,6 @@ const flip = document.querySelector(".card");
 
 burger.addEventListener("click", () => {
     navLinks.classList.toggle("open");
-    container.classList.toggle("open");
     links.forEach(link=>{
         link.classList.toggle("fade");
     });

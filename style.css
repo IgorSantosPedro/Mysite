@@ -14,6 +14,7 @@ body {
   flex-wrap: wrap;
   height: 100vh;
   background: #232427;
+  opacity: 1;
 }
 
 footer {
@@ -122,9 +123,14 @@ nav {
     margin: 5px;
   }
 
+  #nome {
+    margin-top: 7%;
+  }
+
   nav {
     position: relative;
     width: 100%;
+    z-index: 1;
   }
 
   .burger {
@@ -146,12 +152,20 @@ nav {
     -webkit-clip-path: circle(100px at 92% -20%);
     transition: all 1s ease-out;
     pointer-events: none;
+    z-index: 1;
   }
 
   .navlinks.open {
     clip-path: circle(1000px at 90% -10%);
     -webkit-clip-path: circle(1000px at 90% -10%);
     pointer-events: all;
+  }
+
+  .teste.open {
+    opacity: 1;
+    z-index: 1;
+    margin-top: 60vh;
+    margin-left: 34%;
   }
 
   .navlinks li {
@@ -164,9 +178,11 @@ nav {
 
   .navlinks li:nth-child(1) {
     transition: all 0.5s ease 0.2s;
+    z-index: 1;
   }
   .navlinks li:nth-child(2) {
     transition: all 0.5s ease 0.4s;
+    z-index: 1;
   }
   li.fade {
     opacity: 1;
@@ -563,6 +579,11 @@ nav {
 
 @media screen and (max-width: 786px) {
   #botao {
-    margin-right: 1000px;
+    margin-left: 4vh;
+    opacity: 0.5;
+  }
+
+  #fotoatu {
+    margin-left: 40vh;
   }
 }
