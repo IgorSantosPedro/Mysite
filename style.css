@@ -103,16 +103,18 @@ nav {
 }
 
 .teste {
-  margin-left: auto;
+  margin-left: 85%;
   opacity: 0;
   transition: 0.5s;
   color: white;
   clear: both;
+  z-index: 1;
 }
 
 .teste.open {
   opacity: 1;
   transition: 0.5s;
+  z-index: 1;
 }
 
 @media screen and (max-width: 786px) {
@@ -136,7 +138,7 @@ nav {
   .burger {
     position: fixed;
     cursor: pointer;
-    right: 4.2%;
+    right: 29%;
     top: 7%;
     transform: translate(-5%, -50%);
     z-index: 2;
@@ -163,13 +165,14 @@ nav {
     -webkit-clip-path: circle(1000px at 90% -10%);
     pointer-events: all;
     z-index: 1;
+    right: 9%;
   }
 
   .teste.open {
     opacity: 1;
     z-index: 1;
     margin-top: 60vh;
-    margin-left: 34%;
+    margin-left: 20%;
   }
 
   .navlinks li {
